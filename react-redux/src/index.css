@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+ul.nav.navbar-nav {
+    float: right;
+}
+.logo img {
+    width: 200px;
+}
+.logo  {
+    text-align: center;
+}
+.row.gallery {
+    margin-top: 40px;
+    border: 2px solid #ccc;
+}
+span.comment {
+    float: right;
+}
+.col-md-3 img {
+    width: 100%;
+    max-height: 175px;
+    min-height: 175px;
+}
+i.fa.fa-heart {
+    color: red;
+    cursor: pointer;
+}
+.meta {
+    background: beige;
+}
+i.fa.fa-comment {
+    color: #b3b3b3;
+    cursor: pointer;
+}
+.row.gallery h3 {
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    font-weight: 800;
+    color: #8c5e5e;
+}
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+.form-horizontal .control-label {
+    text-align: left;
+}
+.modal-title {
+    text-align: center;
+}
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+.modal-backdrop.in {
+    opacity: 1.5;
+}
+.single img {
+    width: 100%;
+}
+.col-md-6 .navbar-nav>li {
+    float: none;
+}
+.col-md-6 ul.nav.navbar-nav {
+    float: left;
+    width: 100%;
+}
+.side-menu-container form label {
+    width: 100%;
+}
+.side-menu-container {
+    padding: 40px;
+}
+.single {
+    margin-bottom: 50px;
+    border: 5px solid #52d8fd;
+}
+.allcomments {
+    margin: 50px 0px;
+    width: 50%;
+    float: left;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #333;
+    background-color: #52d8fd;
+    border-color: #8c8c8c;
+}
+.btn-default {
+    color: #333;
+    background-color: #52d8fd;
+    border-color: #ccc;
+}
+span.createaccount {
+    color: green;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.fade.in.modal {
+    opacity: 1;
+}

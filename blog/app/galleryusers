@@ -1,0 +1,10 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class galleryusers extends Model
+{
+      protected $table = "galleryusers";  
+}
